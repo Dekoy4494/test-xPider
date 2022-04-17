@@ -1,0 +1,19 @@
+---
+title: Template
+description: Template
+pageName: homePage
+---
+
+{% extends 'layouts/_page-default.twig' %}
+{% block content %}
+  <main>
+    {% include "sections/_hero-section.twig" %}
+    {% include "sections/_slider-section.twig" %}
+    {% include "sections/_how-work-section.twig" %}
+    {% include "sections/_growth-section.twig" %}
+    {% include "sections/_blocks-section.twig" %}
+    {% include "sections/_reviews.twig" %}
+    {% include "sections/_pricing.twig" %}
+    {% include "sections/_banner.twig" %}
+  </main>
+{% endblock %}

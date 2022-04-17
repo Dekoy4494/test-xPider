@@ -1,0 +1,40 @@
+.blocks {
+  .container {
+    padding-top: 170px;
+    padding-bottom: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1110px;
+    .img-wrapper {
+        width: 550px;
+        img {
+          width: 100%;
+        }
+      }
+    .content-wrapper {
+      width: calc(100% - 550px - 130px);
+      .section-title {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: (41/34);
+        color: $color-4;
+        margin-bottom: 40px;
+      }
+      .text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: (28/16);
+        color: #54565a;
+        margin-bottom: 24px;
+      }
+      .section-link {
+        text-decoration: underline;
+        color: $color-3;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: (34/18);
+      }
+    }
+  }
+}

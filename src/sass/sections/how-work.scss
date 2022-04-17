@@ -1,0 +1,50 @@
+.how-it-works {
+  background-color: #f6f8f9;
+  .container {
+    padding-top: 145px;
+    padding-bottom: 125px;
+    border-bottom: 1px solid #e7eaee;
+    text-align: center;
+  }
+  .section-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: (41/34);
+    color: $color-4;
+    margin-bottom: 20px;
+  }
+  .section-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: (34/18);
+    color: $color-5;
+    margin-bottom: 20px;
+    max-width: 845px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+  }
+  .cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .card-item {
+        max-width: 276px;
+      .card-img-wrapper {
+        margin-bottom: 25px;
+      }
+      .card-title {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: (25/21);
+        color: $color-4;
+        margin-bottom: 10px;
+      }
+      .card-subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: (28/16);
+        color: $color-5;
+      }
+    }
+  }
+}

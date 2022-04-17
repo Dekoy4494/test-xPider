@@ -1,0 +1,33 @@
+.banner {
+  background-image: url(../../img/svg/bg-section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container {
+    padding-top: 110px;
+    padding-bottom: 125px;
+    color: white;
+    text-align: center;
+  }
+  .banner-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: (41/34);
+    margin-bottom: 20px;
+  }
+  .banner-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: (34/18);
+    max-width: 555px;
+    margin: 0 auto 50px;
+  }
+  .banner-link-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: (19/16);
+    color: $color-3;
+    padding: 18px 36px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}
